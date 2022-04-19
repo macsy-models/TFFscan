@@ -33,7 +33,7 @@ for more details.
     <gene name="T4P_pilT" presence="mandatory" loner="1"/>
     <gene name="T4P_pilU" presence="accessory"/>
 
-    <gene name="T4P_pilD" presence="mandatory" loner="1">
+    <gene name="T4P_pilD" presence="mandatory" loner="1" multi_model="1">
     	<exchangeables>
             <gene name="T2SS_gspO"/>
             <gene name="ComM_comC"/>

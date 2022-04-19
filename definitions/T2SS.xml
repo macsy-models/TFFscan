@@ -29,7 +29,7 @@ for more details.
     <gene name="T2SS_gspN" presence="accessory"/>
     <gene name="T2SS_gspL" presence="accessory"/>
     
-    <gene name="T2SS_gspO" presence="mandatory" loner="1">
+    <gene name="T2SS_gspO" presence="mandatory" loner="1" multi_model="1">
 	<exchangeables>
         <gene name="T4P_pilD"/>
 	    <gene name="ComM_comC"/>
