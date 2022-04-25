@@ -1,6 +1,6 @@
 <!--
 Authors: Remi Denise, Sophie Abby
-Copyright: 2016-2022 Institut Pasteur Paris, CNRS
+Copyright: 2018-2022 Institut Pasteur Paris, CNRS
 See the COPYRIGHT file for details
 
 This file is a part of TXSScan package.
@@ -13,7 +13,6 @@ see LICENCE file ship with the package or visit
 http://creativecommons.org/licenses/by-nc-sa/4.0/
 for more details.
 -->
-
 
 <model inter_gene_max_space="5" min_mandatory_genes_required="4" min_genes_required="6" multi_loci="1" vers="2.0">
     <gene name="T2SS_gspD" presence="mandatory" loner="1"/>
