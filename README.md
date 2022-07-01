@@ -7,7 +7,7 @@ The systems that can be detected are the following:
 - ComM: the competence machinery found in monoderms, including the classical Bacillus machinery
 - MSH: the mannose-sensitive hemagglutinin pilus
 - T2SS: the type II secretion system 
-- T4P: the type IV pilus, sometimes also called the Type IVa pilus
+- T4aP: the type IV pilus, sometimes also called the Type IVa pilus
 - T4bP: the type IVb pilus, comprising the R64 thin pilus, toxin-coregulated pilus (TCP), bundle-forming pilus (Bfp), longus pilus, and Cof pilus
 - Tad: the Tad (thigh-adherence) pilus
 
