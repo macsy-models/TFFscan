@@ -60,8 +60,6 @@ for more details.
 			<gene name="Archaeal-T4P_arCOG05987" />
 			<gene name="Archaeal-T4P_arCOG06117" />
 			<gene name="Archaeal-T4P_arCOG06296" />
-			<gene name="Archaeal-T4P_arCOG06584" />
-			<gene name="Archaeal-T4P_arCOG06620" />
 			<gene name="Archaeal-T4P_arCOG07276" />
 			<gene name="Archaeal-T4P_arCOG08521" />
 			<gene name="Archaeal-T4P_arCOG08836" />
@@ -101,9 +99,6 @@ for more details.
 <gene name="Archaeal-T4P_arCOG06335" presence="accessory"/>
 <gene name="Archaeal-T4P_arCOG06517" presence="accessory"/>
 <gene name="Archaeal-T4P_arCOG06518" presence="accessory"/>
-<gene name="Archaeal-T4P_arCOG06552" presence="accessory"/>
-<gene name="Archaeal-T4P_arCOG06562" presence="accessory"/>
-<gene name="Archaeal-T4P_arCOG06599" presence="accessory"/>
 <gene name="Archaeal-T4P_arCOG07206" presence="accessory"/>
 <gene name="Archaeal-T4P_arCOG07478" presence="accessory"/>
 <gene name="Archaeal-T4P_arCOG07564" presence="accessory"/>
