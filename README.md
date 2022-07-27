@@ -1,4 +1,4 @@
-# TFF-SF: MacSyFinder models for the annotation of the type IV filament super-family
+# TFFscan: MacSyFinder models for the annotation of the type IV filament super-family
 
 This set of MacSyFinder's models are dedicated to the genomic detection of the cellular machineries that are members of the type IV filament super-family. 
 The systems that can be detected are the following: 
@@ -21,14 +21,14 @@ First, the `macsyfinder` program should be [installed](http://macsyfinder.readth
 
 The basic commands to run are then:
 
-    macsydata install TFF-SF
+    macsydata install TFFscan
 
 
-to install the TFF-SF package. 
+to install the TFFscan package. 
 
     macsyfinder --db-type ordered_replicon \
 		--sequence-db myproteins.fasta \
-		--models TFF-SF system 		
+		--models TFFscan system 		
 
 
 to run the search on your favorite organism's genom, where `system` is one or multiple systems listed above, or `all` to search for all the above listed systems

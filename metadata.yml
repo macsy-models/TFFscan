@@ -3,7 +3,7 @@ maintainer:
   name: Sophie Abby and Rémi Denise
   email: sophie.abby@univ-grenoble-alpes.fr remi.denise@gmail.com
 short_desc: TFF-SF - Models for the type IV filament (TFF) superfamily (including T2SS, T4P, Tad pili and Competence machinery).
-vers: 1.0rc3
+vers: 1.0.0
 cite:
   - |
     Denise Rémi, Abby Sophie S., Rocha Eduardo P. C. (2019).
