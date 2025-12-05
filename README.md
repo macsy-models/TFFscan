@@ -1,27 +1,32 @@
 # TFFscan: MacSyFinder models for the annotation of the type IV filament super-family
 
-This set of MacSyFinder's models are dedicated to the genomic detection of the cellular machineries that are members of the type IV filament super-family. 
+This set of MacSyFinder's models are dedicated to the genomic detection of the cellular machineries that 
+are members of the type IV filament super-family. 
 The systems that can be detected are the following: 
 
-- Archaeal-T4P: the set of archeal type IV pili, comprising the archaeal flagellum (or archaeallum), the UV-induced pilus Ups, the bindosome Bas, etc... 
+- Archaeal-T4P: the set of archeal type IV pili, comprising the archaeal flagellum (or archaeallum), 
+  the UV-induced pilus Ups, the bindosome Bas, etc... 
 - ComM: the competence machinery found in monoderms, including the classical Bacillus machinery
 - MSH: the mannose-sensitive hemagglutinin pilus
 - T2SS: the type II secretion system 
 - T4aP: the type IV pilus, sometimes also called the Type IVa pilus
-- T4bP: the type IVb pilus, comprising the R64 thin pilus, toxin-coregulated pilus (TCP), bundle-forming pilus (Bfp), longus pilus, and Cof pilus
+- T4bP: the type IVb pilus, comprising the R64 thin pilus, toxin-coregulated pilus (TCP), 
+  bundle-forming pilus (Bfp), longus pilus, and Cof pilus
 - Tad: the Tad (thigh-adherence) pilus
 
 
-This set of models corresponds to those published in 2019 in Plos Biology (see below for full reference), updated to the format to enable systems search with **MacSyFinder version 2**.
+This set of models corresponds to those published in 2019 in Plos Biology (see below for full reference), 
+updated to the format to enable systems search with **MacSyFinder version 2**.
 
 ## Installation and Usage with MacSyFinder
 
-First, the `macsyfinder` program should be [installed](http://macsyfinder.readthedocs.io/en/latest/). This will also install the `macsydata` tool that enables to easily install this package of MacSyFinder models from this repository. 
+First, the `macsyfinder` program should be [installed](http://macsyfinder.readthedocs.io/en/latest/). This will also install the `msl_data` tool that
+enables to easily install this package of MacSyFinder models from this repository. 
 
 
 The basic commands to run are then:
 
-    macsydata install TFFscan
+    msl_data install TFFscan
 
 
 to install the TFFscan package. 
@@ -31,12 +36,19 @@ to install the TFFscan package.
 		--models TFFscan system 		
 
 
-to run the search on your favorite organism's genom, where `system` is one or multiple systems listed above, or `all` to search for all the above listed systems
+to run the search on your favorite organism's genom, where `system` is one or multiple systems listed above, 
+or `all` to search for all the above listed systems
 (see [MacSyFinder's documentation](http://macsyfinder.readthedocs.io/en/latest/)). 
 
 
 It has to be noted that to ensure the highest annotation specificity, it is recommended to search for **all** systems in the package at once. 
 
+## Changelog
+
+### 1.0.1
+
+No semantic modifications from 1.0.0 version.
+Fix syntax to be compliant with 2.1 grammar see [MacSyLib documentation](https://macsylib.readthedocs.io/en/latest/modeler_guide/modeling.html#principles-and-how-to-write-macsy-models-definitions)
 
 ## References
 
@@ -59,6 +71,8 @@ It has to be noted that to ensure the highest annotation specificity, it is reco
   Scientific Reports, 6, pp. 23080.
   [doi:10.1038/srep23080](http://dx.doi.org/10.1038/srep23080)
 
-For more details on this set of models, see the following reference: [Denise et al. 2019](https://doi.org/10.1371/journal.pbio.3000390), Diversification of the type IV filament superfamily into machines for adhesion, protein secretion, DNA uptake, and motility, PLoS Biology. 
+For more details on this set of models, see the following reference: [Denise et al. 2019](https://doi.org/10.1371/journal.pbio.3000390), 
+Diversification of the type IV filament superfamily into machines for adhesion, protein secretion, DNA uptake, and motility, PLoS Biology. 
 
-NB: The HMM protein profiles included were either built de novo or obtained from a previous publication. Check the above references and metadata file for more details.
+NB: The HMM protein profiles included were either built de novo or obtained from a previous publication. 
+Check the above references and metadata file for more details.
