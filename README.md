@@ -26,7 +26,7 @@ enables to easily install this package of MacSyFinder models from this repositor
 
 The basic commands to run are then:
 
-    msl_data install TFFscan
+    msf_data install TFFscan
 
 
 to install the TFFscan package. 
